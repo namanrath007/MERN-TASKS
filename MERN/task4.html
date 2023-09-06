@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+</head>
+<body>
+    <style>
+        .container{
+            
+            padding: 0px 0px 10px 20px;
+            margin: 60px 0px 0px 500px;
+            margin-bottom: 10px;
+        }
+        .name{
+            margin-top: 20px;
+            margin-left: 44px;
+            margin-bottom: 10px;
+        }
+        .username{
+            margin-left: 47px;
+            margin-bottom: 10px;
+        }
+        .password{
+            margin-left: 50px;
+            margin-bottom: 10px;     
+        }
+        .repassword{
+            margin-left: 29px;
+            margin-bottom: 10px;
+        }
+        .address{
+            margin-left: 60px;
+            margin-bottom: 10px;      
+        }
+        .age{
+            margin-left: 85px;
+            margin-bottom: 10px;      
+        }
+        .gender{
+            margin-left: 70px;
+            margin-bottom: 10px; 
+            background-color: white;
+        }
+        .save{
+            border-radius: 2px;
+            border: 1px solid black;
+            padding: 5px 8px 5px 8px;
+        }
+    </style>
+    <div class="container">
+        <form action="/action.php">
+            Full Name: <input type="text" class="name"><br>
+            Username: <input type="text" class="username"><br>
+            Password: <input type="password" class="password"><br>
+            Re Password: <input type="password" class="repassword"><br>
+            Address: <input type="address"class="address" ><br>
+            Age: <input type="phonenumber" class="age"><br>
+            <!-- Gender: <input type="gender"class="gender" ><br><br> -->
+            Gender: <select name="gender" class="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="None">None</option>
+            </select><br>
+            <input type="button" class="save" value="Save">
+            
+        </form>
+    </div>
+</body>
+</html>

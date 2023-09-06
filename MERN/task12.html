@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task12</title>
+</head>
+<body>
+    <style>
+        .container{
+            background-color: rgba(148, 8, 83, 0.844);
+            padding: 10px 0px 10px 10px;
+            margin: 50px 0px 0px 450px;
+            width: 485px;
+            height: 420px;
+
+        }
+
+        .cont{
+            margin: 10px 50px 0px 60px;
+            border: 2px solid rgb(116, 8, 40);
+            color: white;
+            background-color: rgb(116, 8, 40);
+            width: 350px;
+            height: 400px;
+            padding: 0px 0px 0px 10px;
+        }
+        #name{
+            margin: 18px 0px 0px 63px;
+            padding: 0px 35px 0px 0px;
+            border: 1px solid black;
+        }
+        #email{
+            margin: 18px 0px 0px 63px;
+            padding: 0px 35px 0px 0px;
+            border: 1px solid black;
+        }
+        #pass{
+            margin: 18px 0px 0px 40px;
+            padding: 0px 35px 0px 0px;
+            border: 1px solid black;
+        }
+        #phone{
+            margin: 18px 0px 18px 5px;
+            padding: 0px 35px 0px 0px;
+            border: 1px solid black;
+        }
+        #male{
+            margin: 0px 0px 0px 50px;
+        }
+        #female{
+            margin: 0px 0px 0px 10px;
+        }
+        #lang{
+            margin: 18px 0px 0px 33px;
+            padding: 5px 4px 5px 4px;
+            border: 1px solid black;
+        }
+        #zip{
+            margin: 18px 0px 0px 40px;
+            padding: 1px 35px 1px 0px;
+            border: 1px solid black;
+        }
+        #about{
+            margin: 18px 0px 0px 60px;
+            padding: 0px 0px 0px 0px;
+            border: 1px solid black;
+
+        }
+        #reg{
+            margin: 18px 0px 0px 0px;
+            padding: 5px 125px 5px 125px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+    <div class="container">
+        <div class="cont">
+            <form action="/action.php">
+                Name:<input type="text" name="name" id="name" placeholder="your name"><br>
+                Email:<input type="mail" name="email" id="email" placeholder="your email"><br>
+                Password:<input type="password" name="password" id="pass"><br>
+                Phone Number:<input type="phonenumber" name="phone" id="phone"><br>
+                Gender:
+                <input type="radio" name="Male" id="male">Male
+                <input type="radio" name="Female" id="female">Female<br>
+                Language:
+                <select name="language" id="lang">
+                    <option value="Select">Select language</option>
+                </select><br>
+                Zip Code:<input type="phonenumber" name="zip" id="zip"><br>
+                About:<textarea name="about" id="about" cols="27" rows="2"></textarea><br>
+                <input type="button" name="Register" id="reg" value="Register">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

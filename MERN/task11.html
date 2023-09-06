@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task11</title>
+</head>
+<body>
+    <style>
+        .container{
+            margin: 10px 0px 0px 500px;
+        }
+        .profile{
+            margin: 0px 0px 0px 90px;
+        }
+        .cont{
+            margin: 10px 0px 0px 50px;
+        }
+        .username{
+            padding: 4px 198px 4px 7px;
+            margin: 0px 0px 10px 0px;
+        }
+        .password{
+            padding: 4px 198px 4px 7px;
+            margin: 0px 0px 15px 0px;
+        }
+        .login{
+            margin: 0px 0px 15px 0px;
+            padding: 5px 165px 5px 165px;
+            color: white;
+            background-color: rgb(12, 186, 12);
+        }
+        .me{
+            margin: 0px 5px 10px 0px;
+        }
+        .co{
+            margin: 10px 605px 0px 0px;
+            border: 1px solid grey;
+            background-color: rgb(212, 212, 212);
+            padding: 10px 0px 2px 0px;
+        }
+        .cancel{
+            margin: 0px 0px 0px 0px;
+            padding: 7px 20px 7px 20px;
+            background-color: orangered;
+            color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+            
+        }
+        a{
+            margin: 0px 0px 0px 165px;
+        }
+    </style>
+    <div class="container">
+        <div class="profile">
+            <img src="/images/profile.png" alt="">
+        </div>
+        <div class="cont">
+            <form action="/action.php">
+               <b>Username</b><br><input type="text" name="username" class="username" placeholder="Enter Username"><br>
+               <b>Password</b><br><input type="password" name="password" class="password" placeholder="Enter Password">
+                <br>
+                <input type="button" name="Login" value="Login" class="login">
+                <br>
+                <input type="checkbox" name="me" class="me">Remember me
+                <br>
+                <div class="co">
+                    <input type="button" class="cancel" name="cancel" value="cancel">
+                    <a href="">Forgot password?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
